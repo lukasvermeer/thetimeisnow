@@ -1,0 +1,25 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "lukas@lukasvermeer.nl",
+    "longName": "The Time Is Now",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "fonts/VeraMono-Bold.ttf",
+                "name": "FONT_VERA_MONO_BOLD_42",
+                "type": "font"
+            }
+        ]
+    },
+    "shortName": "Now",
+    "uuid": "576902b5-0f3a-4d0a-b2bd-0de856c86e6e",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
