@@ -2,7 +2,12 @@
 
 "We Are Here Now"
 
-Simple Pebble watchface intended to encourage mindfulness of the present.
+Simple Pebble watchface intended to encourage mindfulness of the 
+present by discretely punctuating the constant passage of time.
+
+Pebble will vibrate a unique pattern every five minutes to improve 
+time perception by continuously indicating in unprompted fashion 
+that a fixed duration of time has passed.
 
 Created by Lukas Vermeer - www.lukasvermeer.nl
 Inspired by Durr - http://skreksto.re/products/durr
