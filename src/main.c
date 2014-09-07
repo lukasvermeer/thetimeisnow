@@ -19,14 +19,23 @@ Inspired by Durr - http://skreksto.re/products/durr
 Window *my_window;
 TextLayer *text_layer;
 static GFont s_time_font;
+static const char mantras[][31] = { 
+  "WE%01d%01d %01dARE HERE NOW%01d",
+  "GIVE AS%01d%01d %01dYOU %01dGET",
+  "SEE%01d ALL%01d THAT %01d%01dIS",
+  "BE%01d%01d %01dTHE BEST YOU%01d",
+  "STEP %01d%01dUP TO%01d%01d LIFE",
+  "NO%01d%01d TIME %01d%01dIS LOST",
+  "JOY%01d CAN%01d %01d%01dBE OURS",
+  "HELP %01d%01dIF YOU%01d CAN%01d"};
 
 static void update_time() {
   time_t temp = time(NULL); 
   struct tm *tick_time = localtime(&temp);
 
-  static char buffer[] = "WE00 0ARE HERE NOW0";
+  static char buffer[] = "WE-- -ARE HERE NOW-";
   
-  snprintf(buffer, 20, "WE%01d%01d %01dARE HERE NOW%01d", 
+  snprintf(buffer, 20, mantras[rand() % ARRAY_LENGTH(mantras)], 
            tick_time->tm_hour / 10, 
            tick_time->tm_hour % 10, 
            tick_time->tm_min / 10,
