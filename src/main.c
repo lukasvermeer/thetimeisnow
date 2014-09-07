@@ -26,7 +26,7 @@ static const char mantras[][31] = {
   "BE%01d%01d %01dTHE BEST YOU%01d",
   "STEP %01d%01dUP TO%01d%01d LIFE",
   "NO%01d%01d TIME %01d%01dIS LOST",
-  "JOY%01d CAN%01d %01d%01dBE OURS",
+  "JOY%01d CAN%01d %01d%01dBE MADE",
   "HELP %01d%01dIF YOU%01d CAN%01d"};
 
 static void update_time() {
